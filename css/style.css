@@ -5,3 +5,178 @@
 	box-sizing:border-box;
 	outline:none;/*pas d'effet d'activation liés aux navigateurs*/
 }
+
+/* 
+  SOMMAIRE
+
+  0 - GLOBAL
+  1 - PRE-NAV
+  2 - NAV
+  3 - HEADER
+  4 - MAIN
+  5 - PRE-FOOTER
+  6 - FOOTER
+  7 - RESPONSIVE
+*/
+/*------------------------------------------------------------------------ 0 - GLOBAL */
+#body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ul {
+	text-decoration: none;
+	text-decoration-style: none;
+	list-style-type: none;
+} */
+
+
+
+/*------------------------------------------------------------------------ 1 - PRE-NAV */
+#logo {
+	height: 40px;
+	background-color: rgb(39, 39, 39);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15%;
+
+}
+
+#log {
+	padding: 0 15px;
+	vertical-align: middle;
+	/* position: relative; */
+}
+
+#log a{
+	color: #fff;
+}
+
+#log input{
+	margin: 0 0 0 20px;
+	background-color: #000;
+	color: #fff;
+	/* position: absolute; */
+	/* left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%); */
+}
+
+
+/*------------------------------------------------------------------------ 2 - NAV */
+
+#nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 40px;
+	/* width: 100%; */
+	background-color: red;
+	align-content: center;
+	padding: 0 12%;
+
+}
+
+#nav div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* align-content: center; */
+	height: inherit;
+	
+}
+
+#nav ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0 15%;
+	height: inherit;
+
+
+
+}
+
+/* #nav li {
+	vertical-align: middle;
+} */
+
+#nav a {
+	display: flex;
+	text-decoration: none;
+	/* text-decoration-style: none; */
+	margin: 0 10px;
+	/* vertical-align: middle; */
+	align-items: center;
+	font-size: 0.7rem;
+	color: #000;
+	padding: 15px 0;
+	height: 40px;
+}
+
+#nav a:hover{
+	text-decoration: underline;
+}
+
+#nav [type="submit"] {
+	height: 20px;
+	align-content: center;
+}
+
+#last {
+	margin: 0 8% 0 0;
+}
+
+#last input {
+	padding: 11px 0;
+}
+
+/*------------------------------------------------------------------------ 3 - HEADER*/
+
+.slide {
+	display: flex;
+
+}
+
+
+.slide img{
+
+	/* padding: 50px 50px; */
+    width: 50%; 
+    /* height: calc(100vh - 160px); */
+    /* width: 609px;
+    height: 420px; */
+    /* display: block;
+    margin: 0 auto;
+	position: relative; */
+	object-fit: cover;
+	max-height:  calc(100vh - 160px);
+}
+
+
+
+/*------------------------------------------------------------------------ 4 - MAIN */
+
+
+
+
+
+/*------------------------------------------------------------------------ 5 - PRE-FOOTER */
+
+
+
+
+
+/*------------------------------------------------------------------------ 6 - FOOTER */
+
+
+
+
+
+/*------------------------------------------------------------------------ 7 - RESPONSIVE */
+
+
+
+
+
+
