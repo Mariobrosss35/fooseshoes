@@ -1,0 +1,7 @@
+/* reset des propriétés html par défaut */
+*{
+	padding:0;/*marge interne*/
+	margin:0;/*marge externe*/
+	box-sizing:border-box;
+	outline:none;/*pas d'effet d'activation liés aux navigateurs*/
+}
